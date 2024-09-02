@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. We do not want anything we do not use. 2. We want to be able to override if necessary */
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium justify-center inline-flex tracking-tight items-center;
+  }
+
+  .btn-primary {
+    @apply bg-black text-white;
+  }
+
+  .btn-text {
+    @apply bg-transparent text-black;
+  }
+
+  .logo-ticker-image {
+    @apply h-8 w-auto;
+  }
+
+  .tag {
+    @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-[54px] md:leading-[60px] text-center tracking-tighter font-bold bg-gradient-to-b from-black to-[#364d9a] bg-clip-text text-transparent;
+  }
+
+  .section-description {
+    @apply text-[22px] text-center tracking-tight leading-[30px];
+  }
+
+  .section-description-container {
+    @apply max-w-[540px] mx-auto
+  }
+
+  .card {
+    @apply rounded-3xl shadow-[0_7px_14px_#EAEAEA] border p-10 max-w-xs w-full
+  }
+}
