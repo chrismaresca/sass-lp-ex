@@ -31,7 +31,7 @@ export const Hero = () => {
             {/* Tag */}
             <div className="tag">Version 2.0 is here</div>
             <h1 className="font-bold mt-6 text-5xl md:text-7xl tracking-tighter bg-gradient-to-b from-black to-[#364d9a] bg-clip-text text-transparent">Pathway to productivity</h1>
-            <p className="text-xl flex mt-6 text-[#010D3E] tracking-tight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eaque sunt rerum accusantium voluptas debitis explicabo, fugiat labore voluptatem optio minus nulla? Reprehenderit provident sunt rem, minima corporis soluta consequatur.</p>
+            <p className="text-xl flex mt-6 text-[#010D3E] tracking-tight">Hey this is a test, sit amet consectetur adipisicing elit. Eius eaque sunt rerum accusantium voluptas debitis explicabo, fugiat labore voluptatem optio minus nulla? Reprehenderit provident sunt rem, minima corporis soluta consequatur.</p>
             <div className="flex gap-1 items-center mt-[30px]">
               <button className="btn btn-primary">Get for free</button>
               <button className="btn btn-text inline-flex items-center text-nowrap gap-1 font-semibold">
